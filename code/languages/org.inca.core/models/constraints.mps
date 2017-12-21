@@ -2018,7 +2018,7 @@
   </node>
   <node concept="1M2fIO" id="6SzVr$NUhf0">
     <property role="3GE5qa" value="type.compileTime" />
-    <ref role="1M2myG" to="hqsm:6VTlRjrCuGI" resolve="DataTypeReferenceType" />
+    <ref role="1M2myG" to="hqsm:6VTlRjrCuGI" resolve="PrimitiveType" />
     <node concept="1N5Pfh" id="6SzVr$NUhf1" role="1Mr941">
       <ref role="1N5Vy1" to="hqsm:6VTlRjrCuOl" resolve="dataTypeDeclaration" />
       <node concept="3dgokm" id="6SzVr$NUhEG" role="1N6uqs">
@@ -2041,7 +2041,7 @@
   </node>
   <node concept="1M2fIO" id="6SzVr$NUsGi">
     <property role="3GE5qa" value="type.compileTime" />
-    <ref role="1M2myG" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+    <ref role="1M2myG" to="hqsm:RjyNapTFLl" resolve="ConceptType" />
     <node concept="1N5Pfh" id="6SzVr$NUsGj" role="1Mr941">
       <ref role="1N5Vy1" to="hqsm:6hXIxNuN5nr" resolve="concept" />
       <node concept="3dgokm" id="6SzVr$NUsGp" role="1N6uqs">
@@ -2488,7 +2488,7 @@
                       <node concept="2DD5aU" id="2RSm1Cz26Oq" role="2Oq$k0" />
                       <node concept="2Zo12i" id="2RSm1Cz26Of" role="2OqNvi">
                         <node concept="chp4Y" id="2RSm1Cz26Og" role="2Zo12j">
-                          <ref role="cht4Q" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+                          <ref role="cht4Q" to="hqsm:RjyNapTFLl" resolve="ConceptType" />
                         </node>
                       </node>
                     </node>

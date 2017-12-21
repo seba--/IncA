@@ -818,7 +818,7 @@
                 </node>
                 <node concept="1mIQ4w" id="5xvu2kSJEe$" role="2OqNvi">
                   <node concept="chp4Y" id="5xvu2kSJEra" role="cj9EA">
-                    <ref role="cht4Q" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+                    <ref role="cht4Q" to="hqsm:RjyNapTFLl" resolve="ConceptType" />
                   </node>
                 </node>
               </node>

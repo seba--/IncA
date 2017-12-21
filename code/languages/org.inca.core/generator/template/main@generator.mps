@@ -3957,7 +3957,7 @@
     <property role="TrG5h" value="switch_TypeKey" />
     <node concept="3aamgX" id="5xvu2kSmv7g" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:RjyNapTFLl" resolve="ConceptReferenceType" />
+      <ref role="30HIoZ" to="hqsm:RjyNapTFLl" resolve="ConceptType" />
       <node concept="1Koe21" id="5xvu2kSmv7m" role="1lVwrX">
         <node concept="2ShNRf" id="5xvu2kSmv7B" role="1Koe22">
           <node concept="1pGfFk" id="5xvu2kSmv7C" role="2ShVmc">
@@ -3988,7 +3988,7 @@
     </node>
     <node concept="3aamgX" id="8hZAV__E3o" role="3aUrZf">
       <property role="36QftV" value="true" />
-      <ref role="30HIoZ" to="hqsm:6VTlRjrCuGI" resolve="DataTypeReferenceType" />
+      <ref role="30HIoZ" to="hqsm:6VTlRjrCuGI" resolve="PrimitiveType" />
       <node concept="1Koe21" id="8hZAV__E5g" role="1lVwrX">
         <node concept="2ShNRf" id="8hZAV__E5o" role="1Koe22">
           <node concept="1pGfFk" id="8hZAV__E5p" role="2ShVmc">

@@ -773,8 +773,8 @@
                   <node concept="37vLTw" id="23zDCDozdg7" role="1m5AlR">
                     <ref role="3cqZAo" node="5Os6JboGvC0" resolve="type" />
                   </node>
-                  <node concept="chp4Y" id="2RSm1Cz26I9" role="3oSUPX">
-                    <ref role="cht4Q" to="tp25:gzTqbfa" resolve="SNodeType" />
+                  <node concept="chp4Y" id="1CN5qMk5TEM" role="3oSUPX">
+                    <ref role="cht4Q" to="hqsm:1CN5qMk54YB" resolve="RuntimeConceptType" />
                   </node>
                 </node>
                 <node concept="3TrEf2" id="23zDCDozdg8" role="2OqNvi">
@@ -791,8 +791,8 @@
                 <node concept="37vLTw" id="57LMU4Vjm_z" role="1m5AlR">
                   <ref role="3cqZAo" node="5Os6JboGvC0" resolve="type" />
                 </node>
-                <node concept="chp4Y" id="2RSm1Cz26Ib" role="3oSUPX">
-                  <ref role="cht4Q" to="tp25:gzTqbfa" resolve="SNodeType" />
+                <node concept="chp4Y" id="1CN5qMk5TAZ" role="3oSUPX">
+                  <ref role="cht4Q" to="hqsm:1CN5qMk54YB" resolve="RuntimeConceptType" />
                 </node>
               </node>
               <node concept="3TrEf2" id="57LMU4Vjm_$" role="2OqNvi">
@@ -3802,6 +3802,30 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="3fa_KAQuYFi" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTypeConstraintsFor" />
+      <ref role="13i0hy" to="gcg1:1i65yRATv6S" resolve="getTypeConstraintsFor" />
+      <node concept="3Tm1VV" id="3fa_KAQuYFj" role="1B3o_S" />
+      <node concept="3clFbS" id="3fa_KAQuYGD" role="3clF47">
+        <node concept="3cpWs6" id="3fa_KAQuZcA" role="3cqZAp">
+          <node concept="10Nm6u" id="3fa_KAQuZd5" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3fa_KAQuYGE" role="3clF46">
+        <property role="TrG5h" value="variable" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3Tqbb2" id="3fa_KAQuYGF" role="1tU5fm">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+        </node>
+      </node>
+      <node concept="3vKaQO" id="3fa_KAQuYGG" role="3clF45">
+        <node concept="3Tqbb2" id="3fa_KAQuYGH" role="3O5elw">
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="52HBLukNnzy">
     <property role="3GE5qa" value="condition" />
@@ -3976,6 +4000,30 @@
       <node concept="_YKpA" id="6$RZwFUtrFt" role="3clF45">
         <node concept="3Tqbb2" id="6$RZwFUtrFu" role="_ZDj9">
           <ref role="ehGHo" to="hqsm:2J6v22V3ohT" resolve="IVariableValue" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="3fa_KAQuZE7" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getTypeConstraintsFor" />
+      <ref role="13i0hy" to="gcg1:1i65yRATv6S" resolve="getTypeConstraintsFor" />
+      <node concept="3Tm1VV" id="3fa_KAQuZE8" role="1B3o_S" />
+      <node concept="3clFbS" id="3fa_KAQuZE9" role="3clF47">
+        <node concept="3cpWs6" id="3fa_KAQuZEa" role="3cqZAp">
+          <node concept="10Nm6u" id="3fa_KAQuZEb" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3fa_KAQuZEc" role="3clF46">
+        <property role="TrG5h" value="variable" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3Tqbb2" id="3fa_KAQuZEd" role="1tU5fm">
+          <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
+        </node>
+      </node>
+      <node concept="3vKaQO" id="3fa_KAQuZEe" role="3clF45">
+        <node concept="3Tqbb2" id="3fa_KAQuZEf" role="3O5elw">
+          <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
         </node>
       </node>
     </node>
@@ -5386,6 +5434,7 @@
         <node concept="3cpWs8" id="52HBLukRhlG" role="3cqZAp">
           <node concept="3cpWsn" id="52HBLukRhlJ" role="3cpWs9">
             <property role="TrG5h" value="constraints" />
+            <property role="3TUv4t" value="true" />
             <node concept="2hMVRd" id="52HBLukRhlC" role="1tU5fm">
               <node concept="3Tqbb2" id="52HBLukRhoS" role="2hN53Y">
                 <ref role="ehGHo" to="tpck:hYa1RjM" resolve="IType" />
@@ -5563,6 +5612,7 @@
       </node>
       <node concept="37vLTG" id="52HBLukReVM" role="3clF46">
         <property role="TrG5h" value="variable" />
+        <property role="3TUv4t" value="true" />
         <node concept="3Tqbb2" id="52HBLukReVN" role="1tU5fm">
           <ref role="ehGHo" to="hqsm:3VwoHXNAdmi" resolve="IVariable" />
         </node>
