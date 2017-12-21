@@ -52,6 +52,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -1309,6 +1310,22 @@
     <property role="EcuMT" value="4858353860860377641" />
     <property role="3GE5qa" value="typeHint" />
     <property role="TrG5h" value="ITypeHintKeyProvider" />
+  </node>
+  <node concept="PlHQZ" id="7Ew9aRuTwTB">
+    <property role="EcuMT" value="8836102798088474215" />
+    <property role="TrG5h" value="IGenerationTarget" />
+    <property role="3GE5qa" value="target" />
+  </node>
+  <node concept="1TIwiD" id="7Ew9aRuVbzh">
+    <property role="EcuMT" value="8836102798088911057" />
+    <property role="3GE5qa" value="target" />
+    <property role="TrG5h" value="PSystemGenerationTarget" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="PSystem Generation Target" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7Ew9aRuVb$o" role="PzmwI">
+      <ref role="PrY4T" node="7Ew9aRuTwTB" resolve="IGenerationTarget" />
+    </node>
   </node>
 </model>
 
