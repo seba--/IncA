@@ -74,12 +74,14 @@ ext.publishingRepository = version.toString().endsWith("-SNAPSHOT") ? snapshotRe
 configurations {
     mps
     mbeddrPlatformArtifacts
+    mpsIDEA
 }
 
 dependencies {
     mps "com.jetbrains:mps:$mpsVersion"
     mbeddrPlatformArtifacts "com.mbeddr:allScripts:$mbeddrVersion"
     mbeddrPlatformArtifacts "com.mbeddr:platform:$mbeddrVersion"
+    mpsIDEA files("$buildDir/mps/plugins/modelchecker.jar")
 }
 
 repositories {
@@ -100,6 +102,13 @@ dependencies {
     ant_lib "org.apache.ant:ant-junit:1.10.1"
 }
 
+task copyMpsIDEAToLib(type: Copy) {
+  from {
+    configurations.mpsIDEA.resolve()
+  }
+  into 'code/solutions/modelchecker/lib'
+}
+
 task resolveMps(type: Copy) {
     dependsOn configurations.mps
     from {
@@ -114,7 +123,8 @@ ext.buildScriptClasspath = project.configurations.ant_lib.fileCollection({ true 
 def artifactsDir = new File(rootDir, 'artifacts')
 
 
-ext.mps_home =  '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
+ext.mps_home =  '-Dmps_home=' + resolveMps.destinationDir.getAbsolutePath()
+ext.mps_home_ext =  '-Dmps.home=' + resolveMps.destinationDir.getAbsolutePath()
 ext.build_dir = '-Dbuild.dir=' + file(rootProject.projectDir.absolutePath).getAbsolutePath()
 ext.artifacts_dir = '-Dartifacts.root=' + artifactsDir
 ext.pluginVersion = "-Dversion=" + version
@@ -125,9 +135,7 @@ File scriptFile(String relativePath) {
     new File("$rootDir/build/$relativePath")
 }
 
-def defaultScriptArgs = [mps_home,  build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
-
-
+def defaultScriptArgs = [mps_home, mps_home_ext,  build_dir, artifacts_dir, ext.buildDate, ext.pluginVersion]
 
 task resolveMpsArtifacts(type: Copy) {
     dependsOn configurations.mbeddrPlatformArtifacts
@@ -138,7 +146,7 @@ task resolveMpsArtifacts(type: Copy) {
     doFirst { delete artifactsDir }
 }
 
-task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveMpsArtifacts]){
+task build_allScripts(type: BuildLanguages, dependsOn: [resolveMps, resolveMpsArtifacts, copyMpsIDEAToLib]){
      script scriptFile('allScripts/build.xml')
      scriptArgs = defaultScriptArgs
      scriptClasspath = buildScriptClasspath
