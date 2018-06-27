@@ -17,7 +17,7 @@ import de.itemis.mps.gradle.*
 ext.mpsVersion = '2017.3'
 
 // Specify the required mbeddr version or branch name
-ext.mbeddrVersion = '1.0+'
+ext.mbeddrVersion = 'maintenance-mps20173.1.0+'
 
 task wrapper(type: Wrapper) {
     gradleVersion '3.1'
