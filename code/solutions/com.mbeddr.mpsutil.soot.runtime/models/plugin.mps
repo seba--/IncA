@@ -1721,14 +1721,52 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4wNWMN_CCuI" role="3cqZAp">
-          <node concept="2OqwBi" id="4wNWMN_CCuJ" role="3clFbG">
-            <node concept="2YIFZM" id="4wNWMN_CCuK" role="2Oq$k0">
+        <node concept="3cpWs8" id="5g60Uo8unqz" role="3cqZAp">
+          <node concept="3cpWsn" id="5g60Uo8unq$" role="3cpWs9">
+            <property role="TrG5h" value="old" />
+            <property role="3TUv4t" value="true" />
+            <node concept="17QB3L" id="5g60Uo8unRx" role="1tU5fm" />
+            <node concept="2YIFZM" id="5g60Uo8unq_" role="33vP2m">
+              <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+              <node concept="Xl_RD" id="5g60Uo8unqA" role="37wK5m">
+                <property role="Xl_RC" value="os.name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5g60Uo8uiEG" role="3cqZAp">
+          <node concept="2YIFZM" id="5g60Uo8ujeH" role="3clFbG">
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
+            <node concept="Xl_RD" id="5g60Uo8ujeI" role="37wK5m">
+              <property role="Xl_RC" value="os.name" />
+            </node>
+            <node concept="Xl_RD" id="5g60Uo8ujeJ" role="37wK5m">
+              <property role="Xl_RC" value="Whatever" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5g60Uo8uiEK" role="3cqZAp">
+          <node concept="2OqwBi" id="5g60Uo8uiEL" role="3clFbG">
+            <node concept="2YIFZM" id="5g60Uo8uj8Y" role="2Oq$k0">
               <ref role="1Pybhc" to="3sjl:~Scene" resolve="Scene" />
               <ref role="37wK5l" to="3sjl:~Scene.v():soot.Scene" resolve="v" />
             </node>
-            <node concept="liA8E" id="4wNWMN_CCuL" role="2OqNvi">
+            <node concept="liA8E" id="5g60Uo8uiEN" role="2OqNvi">
               <ref role="37wK5l" to="3sjl:~Scene.loadNecessaryClasses():void" resolve="loadNecessaryClasses" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5g60Uo8uiEO" role="3cqZAp">
+          <node concept="2YIFZM" id="5g60Uo8ujbQ" role="3clFbG">
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
+            <node concept="Xl_RD" id="5g60Uo8ujbR" role="37wK5m">
+              <property role="Xl_RC" value="os.name" />
+            </node>
+            <node concept="37vLTw" id="5g60Uo8uoz9" role="37wK5m">
+              <ref role="3cqZAo" node="5g60Uo8unq$" resolve="old" />
             </node>
           </node>
         </node>
