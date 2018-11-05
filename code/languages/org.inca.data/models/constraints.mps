@@ -833,26 +833,6 @@
         </node>
       </node>
     </node>
-    <node concept="9S07l" id="54ERyg8IDrC" role="9Vyp8">
-      <node concept="3clFbS" id="2RSm1Cz26R9" role="2VODD2">
-        <node concept="3cpWs6" id="2RSm1Cz26Ra" role="3cqZAp">
-          <node concept="3clFbC" id="2RSm1Cz26Rb" role="3cqZAk">
-            <node concept="10Nm6u" id="2RSm1Cz26Rc" role="3uHU7w" />
-            <node concept="2OqwBi" id="2RSm1Cz26Rd" role="3uHU7B">
-              <node concept="nLn13" id="2RSm1Cz26Re" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="2RSm1Cz26Rf" role="2OqNvi">
-                <node concept="1xMEDy" id="2RSm1Cz26Rg" role="1xVPHs">
-                  <node concept="chp4Y" id="2RSm1Cz26Rh" role="ri$Ld">
-                    <ref role="cht4Q" to="tpee:hqOqwz4" resolve="DotExpression" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="2RSm1Cz26Ri" role="1xVPHs" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1M2fIO" id="2qfgCZsFPKK">
     <property role="3GE5qa" value="adt" />
